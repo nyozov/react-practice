@@ -7,9 +7,11 @@ function App() {
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route path="hooks" element={<PracticeHook />} />
-      </Routes>
+      <div className="mt-12 p-6">
+        <Routes>
+          <Route path="hook" element={<PracticeHook />} />
+        </Routes>
+      </div>
     </>
   );
 }
