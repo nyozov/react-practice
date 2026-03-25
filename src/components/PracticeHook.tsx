@@ -1,11 +1,7 @@
 import React, { useEffect, useState } from "react";
 import usePatients from "../hooks/usePatients";
+import type { User } from "../types";
 
-type User = {
-    id: number,
-    firstName: string,
-    lastName: string,
-}
 export default function PracticeHook() {
   const { loading, patients, error } = usePatients();
 

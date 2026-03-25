@@ -4,6 +4,7 @@ const Navbar = () => {
     <header className="w-full absolute top-0 left-0 h-12 border border-gray-200 shadow-sm flex gap-2 justify-center items-center">
       <NavLink to="/">Home</NavLink>
       <NavLink to="/hook">Hook</NavLink>
+      <NavLink to="/memo">Memo</NavLink>
     </header>
   );
 };
