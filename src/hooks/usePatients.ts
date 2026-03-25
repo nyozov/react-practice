@@ -18,8 +18,8 @@ export default function usePatients(url = "https://dummyjson.com/users") {
           setLoading(false);
         }
       } catch (err) {
-        setError("Failed to fetch patients");
         if (!cancelled) {
+          setError("Failed to fetch patients");
           setLoading(false);
         }
       }
